@@ -1,0 +1,48 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-18 13:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: install.php:6
+msgid "author"
+msgstr ""
+
+#: install.php:7
+msgid "published"
+msgstr ""
+
+#: admin/class-kntnt-permalink-bases-admin.php:58
+msgid "Author base"
+msgstr ""
+
+#: admin/class-kntnt-permalink-bases-admin.php:59
+msgid "Date base"
+msgstr ""
+
+#. Name of the plugin
+msgid "Permalink bases"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds author and date bases on the permalink option page."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.kntnt.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Thomas Barregren"
+msgstr ""
