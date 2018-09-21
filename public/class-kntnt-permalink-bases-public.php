@@ -4,13 +4,13 @@ class Kntnt_Permalink_Bases_Public {
 
   // Plugin's namespace.
   private $ns;
-  
+
   public function __construct($ns) {
     $this->ns = $ns;
     add_action('init', [$this, 'update_author_base']);
     add_action('init', [$this, 'update_date_base']);
   }
-  
+
   public function update_author_base() {
 
     global $wp_rewrite;
@@ -31,12 +31,12 @@ class Kntnt_Permalink_Bases_Public {
     // If the permalink structure includes post id in the three first position,
     // WordPress prefixes $wp_rewrite->date_structure with `date/` which need
 	// to be removed before we add our date base.
-    if(substr_compare($wp_rewrite->date_structure, 'date/', 0, 5)) {
+    if('date/' == substr($wp_rewrite->date_structure, 0, 5)) {
       $wp_rewrite->date_structure = substr($wp_rewrite->date_structure, 5);
     }
 
     // Add date base to the date structure.
-    $wp_rewrite->date_structure = get_option($this->ns)['date-base'] . $wp_rewrite->date_structure;  
+    $wp_rewrite->date_structure = get_option($this->ns)['date-base'] . $wp_rewrite->date_structure;
 
   }
 
